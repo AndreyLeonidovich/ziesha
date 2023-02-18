@@ -2,6 +2,7 @@
 
 cd $HOME
 sudo systemctl stop ziesha
+sed -i "s/pelmeni-6/pelmeni-7/g" $HOME/.bazuka.yaml
 cd $HOME/bazuka
 git pull origin master
 cargo update
