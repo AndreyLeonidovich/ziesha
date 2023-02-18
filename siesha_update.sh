@@ -1,5 +1,9 @@
 #!/bin/bash
 
+
+
+
+3333333
 cd $HOME
 sudo systemctl stop ziesha
 cd $HOME/bazuka
